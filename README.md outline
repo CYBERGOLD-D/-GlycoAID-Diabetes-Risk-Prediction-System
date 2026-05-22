@@ -1,0 +1,74 @@
+# GlycoAID – Diabetes Risk Prediction System
+
+## 📖 Project Introduction
+GlycoAID is a machine learning–powered system designed to predict diabetes risk using patient diagnostic data.  
+This project was developed as part of the **3MTT Training Program** to demonstrate end-to-end AI deployment with Streamlit.
+
+---
+
+## 🎯 Objectives
+- Load dataset from GitHub
+- Clean and preprocess data
+- Perform exploratory data analysis (EDA)
+- Train Logistic Regression and Decision Tree models
+- Evaluate performance
+- Save the best model for deployment
+- Deploy a Streamlit app for real-time predictions
+
+---
+
+## ⚙️ Workflow
+1. **Data Preparation**  
+   - Dataset loaded and cleaned  
+   - Missing values handled  
+   - Features normalized  
+
+2. **Model Training**  
+   - Logistic Regression  
+   - Decision Tree  
+   - Best model selected based on performance metrics  
+
+3. **Evaluation**  
+   - Accuracy, Precision, Recall, F1-score  
+   - Comparison table included  
+
+4. **Deployment**  
+   - Best model saved as `model.pkl`  
+   - Streamlit app (`app.py`) built for predictions  
+
+---
+
+## 🖥️ Streamlit App Features
+- Accepts **8 patient inputs** via sidebar (`st.number_input`)  
+- Predicts diabetes risk using the trained model  
+- Displays probability score with **risk gauge meter**  
+- **Feature importance visualization** (SHAP)  
+- **Model comparison table**  
+- **Explainable AI** (why prediction was made)  
+- Clean and modern UI design  
+
+# GlycoAID – Diabetes Risk Prediction System
+
+GlycoAID is a machine learning–powered application designed to assist in the early diagnosis of diabetes. By analyzing patient diagnostic data such as glucose levels, BMI, blood pressure, and age, the system predicts the likelihood of diabetes risk. Its goal is to help identify potential cases early, enabling timely medical intervention and improved patient outcomes.
+
+---
+
+## 🚀 Features
+- **Clean UI**: Patient inputs collected via Streamlit sidebar.
+- **Risk Prediction**: Displays probability of diabetes risk using a progress bar and metric.
+- **Feature Importance**: Visualizes which health indicators most influence predictions.
+- **Model Comparison**: Shows accuracy and F1-score of different models.
+- **Patient Records**: Saves predictions with patient names and allows CSV download for hospital staff.
+
+---
+
+## 🛠️ Requirements
+Install dependencies with:
+```bash
+pip install -r requirements.txt
+
+
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CYBERGOLD-D/-GlycoAID-Diabetes-Risk-Prediction-System
