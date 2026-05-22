@@ -72,3 +72,18 @@ pip install -r requirements.txt
 1. Clone the repository:
    ```bash
    git clone https://github.com/CYBERGOLD-D/-GlycoAID-Diabetes-Risk-Prediction-System
+Enter patient details in the sidebar, click Predict, and view:
+
+Risk probability (progress bar + metric)
+
+Feature importance chart
+
+Model comparison table
+
+Patient records table
+
+Option to download patient records as CSV
+
+## 🖼️ Screenshots
+![App Sidebar](screenshots/sidebar.png)
+![Prediction Output](screenshots/prediction.png)
