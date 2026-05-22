@@ -85,5 +85,25 @@ Patient records table
 Option to download patient records as CSV
 
 ## 🖼️ Screenshots
+
+### 🧩 Sidebar Inputs
+This view shows the **patient input panel** where hospital staff can enter diagnostic data such as glucose level, blood pressure, BMI, and age.  
+It demonstrates the clean Streamlit sidebar layout for data entry.
+
 ![App Sidebar](screenshots/sidebar.png)
+
+---
+
+### 📊 Prediction Output
+After clicking **Predict**, the app displays the patient’s diabetes risk result, probability score, and progress bar.  
+The example below shows a **Low Risk** prediction with a 15.18% probability.
+
 ![Prediction Output](screenshots/prediction.png)
+
+---
+
+### 🧾 Saved Patient Records
+This section displays all saved patient records in a table format, including names and diagnostic details.  
+Hospital staff can review the records directly in the app and download them as a CSV file.
+
+![Saved Patient Records](screenshots/patient_records.png)
